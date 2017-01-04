@@ -1,0 +1,44 @@
+<html lang="en" ng-app='mockups' >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body ng-controller='main' ng-cloak>
+  <div layout="row">
+    <div class="md-padding border" layout="column" flex="25">
+      <div flex="10">Raw Data</div>
+      <div flex="15">Stats</div>
+      <div flex="75">Data</div>
+    </div>
+    <div class="md-padding border" layout="column" flex="25">
+      <div flex="10">Processed Data</div>
+      <div flex="15">Stats</div>
+      <div flex="75">Data</div>
+    </div>
+    <div class="md-padding border" layout="column" flex="25">
+      <div flex="10">Augmented Data</div>
+      <div flex="15">Stats</div>
+      <div flex="75">Data</div>
+    </div>
+    <div class="md-padding border" layout="column" flex="25">
+      <div flex="10">Analyst Queue</div>
+      <div flex="15">Stats</div>
+      <div flex="75">Data</div>
+    </div>
+  </div>
+<!-- ====|| LIBS ||==== -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.min.js"></script>
+  <script type="text/javascript" src="./directives/ng-prettyjson.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>

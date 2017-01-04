@@ -1,0 +1,77 @@
+/*
+
+base00: "ffffff"
+base01: "e1e1e2"
+base02: "c4c3c5"
+base03: "a7a5a8"
+base04: "89878b"
+base05: "6c696e"
+base06: "4f4b51"
+base07: "322d34"
+base08: "d8137f"
+base09: "d65407"
+base0A: "dc8a0e"
+base0B: "17ad98"
+base0C: "149bda"
+base0D: "775dff"
+base0E: "aa17e6" 
+base0F: "e013d0"
+
+$scope.objClasses={
+       alignment:['left','right','center','left','right']
+      ,borders:['solid','double','dotted','dashed','groove']
+      ,color:['red','orange','yellow','green','blue']
+      ,size:['normal','small','large','tiny','xl']
+      ,icons:[]
+      ,fonts:['sans','serif','mono','normal','normal']
+      ,background:['bgred','bgorange','bgyellow','bggreen','bgblue']
+      ,thickness:['thin','thick','xthick','thick-left','thick-sides']
+      ,spacing:['none','barely','equal','double']
+      ,shape:['normal','round']
+};
+
+*/
+
+.border{border: 1px solid #666;}
+
+pre.pretty-json{ overflow-x:hidden; margin:5px;}
+pre.pretty-json span.key{ color: #d8137f; }
+pre.pretty-json span.string{ color: #322d34; }
+pre.pretty-json span.number{ color: #d65407; }
+pre.pretty-json span.sep{ color: #a7a5a8; }
+pre.pretty-json span.boolean{ color: #775dff; }
+pre.pretty-json span.null{ color: #aa17e6; }
+
+.right{text-align:right;border-top:1px solid #000;}
+.center{text-align:center;border:1px solid #000;}
+
+.double{border:1px double #000;}
+.dotted{border:1px dotted #000;}
+.dashed{border:1px dashed #000;}
+.groove{border:1px groove #000;}
+
+.small{font-size: .75em;}
+.large{font-size:1.5em;}
+.xl{font-size: 2em;}
+.tiny{font-size:.5em;}
+
+.thick{border:3px solid #000;}
+.xthick{border:5px solid #000;}
+.thick-left{border-left:10px solid #000;}
+.thick-sides{border-left:10px solid #000;border-right:10px solid #000;}
+
+.none{border:1px solid #000;margin:0;padding:0;}
+.barely{border:1px solid #000;margin:5px;padding:5px;}
+.equal{border:1px solid #000;margin:10px;padding:10px;}
+
+.round{border:1px solid #000;border-radius: 30px;}
+.round-side{border:1px solid #000;border-top-right-radius: 30px;border-bottom-right-radius: 30px;}
+.round-top{border:1px solid #000;border-top-left-radius: 30px;border-top-right-radius: 30px;}
+
+.pre.sans{font-family:Arial, Helvetica, sans-serif;}
+.pre.serif{font-family:Georgia, serif;}
+.pre.mono{font-family:"Courier New", Courier, monospace;}
+
+.bgred{background-color:#fdd;}
+.bgyellow{background-color:#ffd;}
+.bggreen{background-color:#dfd;}
