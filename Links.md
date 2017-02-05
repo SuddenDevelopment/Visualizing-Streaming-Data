@@ -3,10 +3,12 @@
 - https://nodejs.org/en/ server side javascript
 - https://angularjs.org/ web client framework
 - https://material.angularjs.org/latest/ apply Google material design philosphy on Angular
+- http://electron.atom.io/ build native apps from web technologies
 
 ## Data sources
 
 - https://aws.amazon.com/datasets/
+- https://osquery.io/ turn OS information into queryable data
 
 ## Connecting
 
@@ -14,6 +16,11 @@
 - http://orientdb.com/docs/last/Live-Query.html streaming data feature
 - https://github.com/cayasso/mongo-oplog library to stream a mongodb oplog
 - http://papaparse.com/ stream a file
+- https://github.com/nevill/zongji stream a mysql binlog
+- https://github.com/SocketCluster/socketcluster distributed data streaming with channels
+- https://www.pubnub.com/ commercial service for streaming data
+- https://pusher.com/ commercial service for streaming data
+- https://www.elastic.co/products/beats the collection and streaming components for a very popular dstrbuted log system
 
 ## Processing
 
@@ -29,6 +36,8 @@
 
 - https://github.com/yaronn/blessed-contrib console dashboard visualization framework
 - http://stack.gl/ one of many webGL libraries for more experimental visualizations
+- https://threejs.org/ one of the more popular webgl libraries
+- https://github.com/regl-project/regl webgl library
 - http://fontawesome.io/ great icon library
 - https://github.com/darul75/ng-prettyjson show syntax highlighted json data in Angular
 
@@ -39,6 +48,14 @@
 - https://github.com/Netflix/Hystrix/wiki/Dashboard A robust monitoring component that is streaming data compatible
 - http://grafana.org/ graph library
 - https://github.com/artzub/blackhole.js fancy relationship visualization, good for streaming because it has a focus on changes over time
+- https://github.com/uber/deck.gl map visualization library
+- https://github.com/datacratic/data-projector experimental 3d network visualization
+- https://github.com/INRIA/VisualSedimentation visualization method to show accumulated changes over time
+- https://github.com/anvaka/ngraph.pixel#demo graph library on webgl
+- https://github.com/Netflix/vizceral graph library
+- http://epochjs.github.io/epoch/ streaming friendly charts
+- https://preziotte.com/partymode/ music visualizations
+- https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
 
 ## Analysis
 
@@ -56,6 +73,11 @@
 - http://dataviz.com.au/ Australian data visualization group
 - https://www.kiln.digital/ a collection of examples of presentations intended to convince an audience
 - http://d3.artzub.com/wbca/ another map visualization with a lot of coordinated elements
+- https://mapbox.github.io/webgl-wind/demo/ map with particle movement to show directions and paths
+- https://www.robscanlon.com/github-wargames/ intentionally retro visualization of live data
+- http://www.fudgie.org/ end to end streaming data visualization for log files
+- https://github.com/NarrativeScience/Log.io complete and free product for watching streaming log files
+- https://torflow.uncharted.software/ map of TOR traffic with relationsips
 
 ## Other lists
 
