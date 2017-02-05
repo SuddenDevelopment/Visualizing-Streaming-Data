@@ -2,8 +2,10 @@
 
 - https://nodejs.org/en/ server side javascript
 - https://angularjs.org/ web client framework
+- https://github.com/reactjs anaother popular web client framework
 - https://material.angularjs.org/latest/ apply Google material design philosphy on Angular
 - http://electron.atom.io/ build native apps from web technologies
+
 
 ## Data sources
 
@@ -21,6 +23,7 @@
 - https://www.pubnub.com/ commercial service for streaming data
 - https://pusher.com/ commercial service for streaming data
 - https://www.elastic.co/products/beats the collection and streaming components for a very popular dstrbuted log system
+- https://aws.amazon.com/kinesis/ a cloud streaming framework by Amazon
 
 ## Processing
 
