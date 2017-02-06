@@ -82,7 +82,7 @@
 
 ## Inspiration
 
-- https://initialstate.com/ streaming data visualization for Internet fo Things
+- https://initialstate.com/ streaming data visualization for Internet of Things
 - https://lab.interactivethings.com/galaxy-of-covers/ a beautiful illustration of song and their covers as solar systems
 - https://mapzen.com/blog/tron-v2-visual-scale/ visual element of tron on a streaming data map
 - https://www.washingtonpost.com/graphics/national/police-shootings/ interactive infographic on a hot topic
