@@ -63,8 +63,6 @@
 - https://preziotte.com/partymode/ music visualizations
 - https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
 
-## Analysis
-
 ## Machine Learning
 
 - https://www.tensorflow.org/ general purpose machine learning framework
@@ -77,6 +75,10 @@
 - https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
 
 ## Actions
+
+- https://api.slack.com/incoming-webhooks send messages to slack
+- https://developer.atlassian.com/hipchat/getting-started send messages to hipchat
+
 
 ## Inspiration
 
