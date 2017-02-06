@@ -10,7 +10,8 @@
 ## Data sources
 
 - https://aws.amazon.com/datasets/
-- https://osquery.io/ turn OS information into queryable data
+- https://blockchain.info/api/api_websocket Blockchain streaming data
+- https://www.mediawiki.org/wiki/API:Recent_changes_stream Wikimedia network changes
 
 ## Connecting
 
@@ -24,6 +25,7 @@
 - https://pusher.com/ commercial service for streaming data
 - https://www.elastic.co/products/beats the collection and streaming components for a very popular dstrbuted log system
 - https://aws.amazon.com/kinesis/ a cloud streaming framework by Amazon
+- https://osquery.io/ turn OS information into queryable data
 
 ## Processing
 
@@ -46,6 +48,7 @@
 
 ## Visualizing
 
+- https://www.pubnub.com/developers/eon/ real time library for client visualizations
 - https://d3js.org/ The most popular visualization library for client development
 - http://www.aviz.fr/~bbach/timecurves/ an interesting approach to representing progress
 - https://github.com/Netflix/Hystrix/wiki/Dashboard A robust monitoring component that is streaming data compatible
@@ -64,6 +67,15 @@
 
 ## Machine Learning
 
+- https://www.tensorflow.org/ general purpose machine learning framework
+- http://scikit-learn.org/ Python machine learning library
+- https://github.com/karpathy/convnetjs deep learning in the browser or node.js
+- https://github.com/Yomguithereal/talisman collection of machine learning capabilities on node.js
+- https://github.com/NaturalNode/natural popular natural language processing library for node.js
+- https://cloud.google.com/ml/ machine learning in Google cloud
+- https://aws.amazon.com/machine-learning/ machine learning in aws
+- https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
+
 ## Actions
 
 ## Inspiration
@@ -81,6 +93,7 @@
 - http://www.fudgie.org/ end to end streaming data visualization for log files
 - https://github.com/NarrativeScience/Log.io complete and free product for watching streaming log files
 - https://torflow.uncharted.software/ map of TOR traffic with relationsips
+
 
 ## Other lists
 
