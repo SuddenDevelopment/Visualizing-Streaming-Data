@@ -86,3 +86,4 @@
 
 - http://dataviz.tools/ a great list of non streaming specific data visualization
 - http://treevis.net lots of tree and treemap visualizations
+- https://github.com/josephmisiti/awesome-machine-learning machine learning resources
