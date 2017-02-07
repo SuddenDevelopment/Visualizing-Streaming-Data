@@ -30,6 +30,7 @@
 - https://pusher.com/ commercial service for streaming data
 - https://www.elastic.co/products/beats the collection and streaming components for a very popular dstrbuted log system
 - https://aws.amazon.com/kinesis/ a cloud streaming framework by Amazon
+- https://kafka.apache.org/ streaming technology for very large scale implementations
 - https://osquery.io/ turn OS information into queryable data
 
 ## Processing
