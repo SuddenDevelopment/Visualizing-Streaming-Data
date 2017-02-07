@@ -12,6 +12,7 @@
 - https://aws.amazon.com/datasets/
 - https://blockchain.info/api/api_websocket Blockchain streaming data
 - https://www.mediawiki.org/wiki/API:Recent_changes_stream Wikimedia network changes
+- https://www.honeynet.org/node/960 streaming honeypot events
 
 ## Connecting
 
