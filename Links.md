@@ -1,3 +1,7 @@
+## Concepts
+- https://en.wikipedia.org/wiki/Voronoi_diagram calculated geometry algorithm
+- https://en.wikipedia.org/wiki/Hexagon hexagons are special
+
 ## Technologies
 
 - https://nodejs.org/en/ server side javascript
