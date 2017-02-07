@@ -80,7 +80,6 @@
 - https://api.slack.com/incoming-webhooks send messages to slack
 - https://developer.atlassian.com/hipchat/getting-started send messages to hipchat
 
-
 ## Inspiration
 
 - https://initialstate.com/ streaming data visualization for Internet of Things
@@ -97,6 +96,8 @@
 - https://github.com/NarrativeScience/Log.io complete and free product for watching streaming log files
 - https://torflow.uncharted.software/ map of TOR traffic with relationsips
 - https://github.com/mbtaviz/mbtaviz.github.io/ impressive multi visualization on transportation data
+- http://vallandingham.me/openvis_tweets/ an interesting approach to frequency visualization using tweets
+- http://vallandingham.me/speaker_web/ combines frequency and relationships
 
 ## Other lists
 
