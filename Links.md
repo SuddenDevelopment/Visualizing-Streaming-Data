@@ -104,6 +104,7 @@
 - https://github.com/mbtaviz/mbtaviz.github.io/ impressive multi visualization on transportation data
 - http://vallandingham.me/openvis_tweets/ an interesting approach to frequency visualization using tweets
 - http://vallandingham.me/speaker_web/ combines frequency and relationships
+- https://ohm.ai commercial streaming data visualization client
 
 ## Other lists
 
