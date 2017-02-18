@@ -51,6 +51,7 @@
 - https://threejs.org/ one of the more popular webgl libraries
 - https://github.com/regl-project/regl webgl library
 - http://fontawesome.io/ great icon library
+- https://fonts.google.com/ popular soution for fonts
 - https://github.com/darul75/ng-prettyjson show syntax highlighted json data in Angular
 
 ## Visualizing
@@ -80,6 +81,7 @@
 - https://cloud.google.com/ml/ machine learning in Google cloud
 - https://aws.amazon.com/machine-learning/ machine learning in aws
 - https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
+- http://yerevann.com/a-guide-to-deep-learning/ machine learning and deep learning tutorials
 
 ## Actions
 
