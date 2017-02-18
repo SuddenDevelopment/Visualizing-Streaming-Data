@@ -108,6 +108,10 @@
 - http://vallandingham.me/speaker_web/ combines frequency and relationships
 - https://ohm.ai commercial streaming data visualization client
 
+## Tutorials and Guides on Data Visualization
+
+- https://venngage.com/blog/data-visualization/ great guidelines with examples
+
 ## Other lists
 
 - http://dataviz.tools/ a great list of non streaming specific data visualization
