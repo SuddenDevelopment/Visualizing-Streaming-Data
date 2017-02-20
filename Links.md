@@ -61,6 +61,7 @@
 
 - https://www.pubnub.com/developers/eon/ real time library for client visualizations
 - https://d3js.org/ The most popular visualization library for client development
+- http://christopheviau.com/d3list/gallery.html A great gallery of D3 visualizations
 - http://www.aviz.fr/~bbach/timecurves/ an interesting approach to representing progress
 - https://github.com/Netflix/Hystrix/wiki/Dashboard A robust monitoring component that is streaming data compatible
 - http://grafana.org/ graph library
