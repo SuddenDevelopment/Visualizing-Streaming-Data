@@ -2,6 +2,7 @@
 - https://en.wikipedia.org/wiki/Data_visualization data visualization
 - https://en.wikipedia.org/wiki/Voronoi_diagram calculated geometry algorithm
 - https://en.wikipedia.org/wiki/Hexagon hexagons are special
+- http://www.redblobgames.com/grids/hexagons/ details on implementing hexagons
 - https://en.wikipedia.org/wiki/Bloom_filter bloom filter
 
 ## Technologies
