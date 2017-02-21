@@ -75,6 +75,7 @@
 - http://epochjs.github.io/epoch/ streaming friendly charts
 - https://preziotte.com/partymode/ music visualizations
 - https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
+- http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/ illustrating the choices of how to best visualize a dataset
 
 ## Machine Learning
 
