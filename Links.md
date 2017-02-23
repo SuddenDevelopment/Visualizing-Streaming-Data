@@ -97,6 +97,7 @@
 
 ## Streaming Data Clients
 - https://planetos.com/powerboard/
+- https://www.alooma.com/blog/kafka-realtime-visualization a streaming data client for Kafka
 - http://ohm.ai 
 
 ## Inspiration
