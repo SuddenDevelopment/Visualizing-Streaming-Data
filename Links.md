@@ -14,7 +14,7 @@
 - https://material.angularjs.org/latest/ apply Google material design philosphy on Angular
 - http://electron.atom.io/ build native apps from web technologies
 - https://runkit.com/home node.js online sandbox
-
+- https://github.com/Netflix/atlas/wiki - Realtime DB for Operational Intelligence
 
 ## Data sources
 
