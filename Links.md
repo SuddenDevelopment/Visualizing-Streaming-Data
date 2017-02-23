@@ -72,7 +72,7 @@
 - https://github.com/datacratic/data-projector experimental 3d network visualization
 - https://github.com/INRIA/VisualSedimentation visualization method to show accumulated changes over time
 - https://github.com/anvaka/ngraph.pixel#demo graph library on webgl
-- https://github.com/Netflix/vizceral graph library
+- http://techblog.netflix.com/2016/08/vizceral-open-source.html graph library
 - http://epochjs.github.io/epoch/ streaming friendly charts
 - https://preziotte.com/partymode/ music visualizations
 - https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
