@@ -4,6 +4,7 @@
 - https://en.wikipedia.org/wiki/Hexagon hexagons are special
 - http://www.redblobgames.com/grids/hexagons/ details on implementing hexagons
 - https://en.wikipedia.org/wiki/Bloom_filter bloom filter
+- https://medium.com/@mslima/the-book-of-circles-4b511a5bcffc#.10wjn5hu6 circles
 
 ## Technologies
 
@@ -93,6 +94,10 @@
 
 - https://api.slack.com/incoming-webhooks send messages to slack
 - https://developer.atlassian.com/hipchat/getting-started send messages to hipchat
+
+## Streaming Data Clients
+- https://planetos.com/powerboard/
+- http://ohm.ai 
 
 ## Inspiration
 
