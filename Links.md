@@ -119,6 +119,7 @@
 - http://vallandingham.me/openvis_tweets/ an interesting approach to frequency visualization using tweets
 - http://vallandingham.me/speaker_web/ combines frequency and relationships
 - https://www.behance.net/gallery/11508419/Falcon-Tactical-HUD a promotional prototype by Brian Staats for Crowdstrike
+- http://setosa.io/#/ collection of data visualizations
 
 ## Tutorials and Guides on Data Visualization
 
