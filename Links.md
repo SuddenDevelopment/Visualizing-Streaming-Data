@@ -101,6 +101,7 @@
 - https://planetos.com/powerboard/
 - https://www.alooma.com/blog/kafka-realtime-visualization a streaming data client for Kafka
 - http://ohm.ai 
+- https://www.appdynamics.com/product/application-performance-management/ complete solution for microservices architecture
 
 ## Inspiration
 
