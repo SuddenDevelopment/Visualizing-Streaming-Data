@@ -90,6 +90,7 @@
 - https://aws.amazon.com/machine-learning/ machine learning in aws
 - https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
 - http://yerevann.com/a-guide-to-deep-learning/ machine learning and deep learning tutorials
+- http://www.skrasser.com/publications/pdf/krasser2015val.pdf detailed description of machine learning applied to malware detection
 
 ## Actions
 
