@@ -15,6 +15,7 @@
 - http://electron.atom.io/ build native apps from web technologies
 - https://runkit.com/home node.js online sandbox
 - https://github.com/Netflix/atlas/wiki - Realtime DB for Operational Intelligence
+- http://spark.apache.org/ popular solution for highly scalable processing
 
 ## Data sources
 
