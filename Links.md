@@ -1,7 +1,10 @@
 ## Concepts
+- https://en.wikipedia.org/wiki/Data_visualization data visualization
 - https://en.wikipedia.org/wiki/Voronoi_diagram calculated geometry algorithm
 - https://en.wikipedia.org/wiki/Hexagon hexagons are special
+- http://www.redblobgames.com/grids/hexagons/ details on implementing hexagons
 - https://en.wikipedia.org/wiki/Bloom_filter bloom filter
+- https://medium.com/@mslima/the-book-of-circles-4b511a5bcffc#.10wjn5hu6 circles
 
 ## Technologies
 
@@ -10,7 +13,9 @@
 - https://github.com/reactjs anaother popular web client framework
 - https://material.angularjs.org/latest/ apply Google material design philosphy on Angular
 - http://electron.atom.io/ build native apps from web technologies
-
+- https://runkit.com/home node.js online sandbox
+- https://github.com/Netflix/atlas/wiki - Realtime DB for Operational Intelligence
+- http://spark.apache.org/ popular solution for highly scalable processing
 
 ## Data sources
 
@@ -51,12 +56,15 @@
 - https://threejs.org/ one of the more popular webgl libraries
 - https://github.com/regl-project/regl webgl library
 - http://fontawesome.io/ great icon library
+- https://fonts.google.com/ popular soution for fonts
 - https://github.com/darul75/ng-prettyjson show syntax highlighted json data in Angular
+- http://airbnb.design/building-a-visual-language/ a guide to developing a visual language by AirBnB
 
 ## Visualizing
 
 - https://www.pubnub.com/developers/eon/ real time library for client visualizations
 - https://d3js.org/ The most popular visualization library for client development
+- http://christopheviau.com/d3list/gallery.html A great gallery of D3 visualizations
 - http://www.aviz.fr/~bbach/timecurves/ an interesting approach to representing progress
 - https://github.com/Netflix/Hystrix/wiki/Dashboard A robust monitoring component that is streaming data compatible
 - http://grafana.org/ graph library
@@ -65,10 +73,11 @@
 - https://github.com/datacratic/data-projector experimental 3d network visualization
 - https://github.com/INRIA/VisualSedimentation visualization method to show accumulated changes over time
 - https://github.com/anvaka/ngraph.pixel#demo graph library on webgl
-- https://github.com/Netflix/vizceral graph library
+- http://techblog.netflix.com/2016/08/vizceral-open-source.html graph library
 - http://epochjs.github.io/epoch/ streaming friendly charts
 - https://preziotte.com/partymode/ music visualizations
 - https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
+- http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/ illustrating the choices of how to best visualize a dataset
 
 ## Machine Learning
 
@@ -80,11 +89,19 @@
 - https://cloud.google.com/ml/ machine learning in Google cloud
 - https://aws.amazon.com/machine-learning/ machine learning in aws
 - https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
+- http://yerevann.com/a-guide-to-deep-learning/ machine learning and deep learning tutorials
+- http://www.skrasser.com/publications/pdf/krasser2015val.pdf detailed description of machine learning applied to malware detection
 
 ## Actions
 
 - https://api.slack.com/incoming-webhooks send messages to slack
 - https://developer.atlassian.com/hipchat/getting-started send messages to hipchat
+
+## Streaming Data Clients
+- https://planetos.com/powerboard/
+- https://www.alooma.com/blog/kafka-realtime-visualization a streaming data client for Kafka
+- http://ohm.ai 
+- https://www.appdynamics.com/product/application-performance-management/ complete solution for microservices architecture
 
 ## Inspiration
 
@@ -104,7 +121,13 @@
 - https://github.com/mbtaviz/mbtaviz.github.io/ impressive multi visualization on transportation data
 - http://vallandingham.me/openvis_tweets/ an interesting approach to frequency visualization using tweets
 - http://vallandingham.me/speaker_web/ combines frequency and relationships
-- https://ohm.ai commercial streaming data visualization client
+- https://www.behance.net/gallery/11508419/Falcon-Tactical-HUD a promotional prototype by Brian Staats for Crowdstrike
+- http://setosa.io/#/ collection of data visualizations
+- http://nulldesign.jp/metrogram3d/ 3d streaming data visualization
+
+## Tutorials and Guides on Data Visualization
+
+- https://venngage.com/blog/data-visualization/ great guidelines with examples
 
 ## Other lists
 
