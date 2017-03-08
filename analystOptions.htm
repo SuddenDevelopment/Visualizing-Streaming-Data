@@ -7,18 +7,32 @@
   <link rel="stylesheet" href="./index.css">
 </head>
 <body ng-controller='main' ng-cloak>
-  <div layout="row">
-    <div class="border md-padding" flex="40">Data to examine here </div>
-  </div>
-  <div layout="row">
-    <md-button class="md-raised md-primary">Validate</md-button>
-    <md-button class="md-raised md-warn">False Positive</md-button>
-    <md-button class="md-raised md-warn">False Negative</md-button>
-    <md-button class="md-raised md-warn">Wrong Category</md-button>
-  </div>
-  <div layout="row">
-    <div class="border md-padding" flex="40">Dynamically shown Form to explain here </div>
-  </div>
+  <md-content class="md-padding">
+    <div layout="column" flex="40">
+      <div layout="row">
+        <div class="border md-padding" flex>Data to examine here </div>
+      </div>
+      <div layout="row">
+        <md-button class="md-raised md-primary">Validate</md-button>
+        <md-button class="md-raised md-warn">False Positive</md-button>
+        <md-button class="md-raised md-warn">False Negative</md-button>
+        <md-button class="md-raised md-warn">Wrong Category</md-button>
+      </div>
+      <div layout="column" class="border md-padding" >
+        <div>Dynamically shown Form to explain here </div>
+        <div>
+          <md-input-container>
+          <label>Category</label>
+            <input></md-input>
+          </md-input-container>
+          <md-input-container>
+          <label>Why</label>
+            <input></md-input>
+          </md-input-container>
+        </div>
+      </div>
+    </div>
+  </md-content>
 <!-- ====|| LIBS ||==== -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
@@ -28,6 +42,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.min.js"></script>
+   <script type="text/javascript" src="./directives/ng-prettyjson.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>

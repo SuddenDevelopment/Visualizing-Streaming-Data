@@ -10,13 +10,13 @@ angular.module('ngPrettyJson', [])
   return {    
     restrict: 'AE',
     scope: {
-      json: '=',
-      prettyJson: '='
+      prettyJson: '=',
+      tags: '='
     },
     template: '<div></div>',
     replace: true,      
     link: function (scope, elm, attrs) {
-      var currentValue = {}, editor = null, clonedElement = null;
+      var currentValue = {}, editor = null, clonedElement = null,i=0,ii=0;
 
       scope.id = attrs.id || 'prettyjson';
       // compile template
@@ -27,30 +27,56 @@ angular.module('ngPrettyJson', [])
       elm.removeAttr("id");
       //put the new item in the container
       elm.append(e);
-
+      //console.log(scope.tags);
       // prefer the "json" attribute over the "prettyJson" one.
       // the value on the scope might not be defined yet, so look at the markup.
-      var exp = isDefined(attrs.json) ? 'json' : 'prettyJson',
+      var exp = 'prettyJson',
       highlight = function highlight(value) {
         //get the css classes to add
         var strClasses='';
-        if(value.hasOwnProperty('_styles') && value._styles.constructor === Array && value._styles.length > 0){ 
+        if(typeof value !== 'undefined' && typeof value._styles !== 'undefined' && value._styles.constructor === Array && value._styles.length > 0){ 
           //convert from an array in the object to a space separated string
           strClasses=value._styles.join(' ');
           //apply to the div
           //console.log(strClasses);
           scope.tmplElt.addClass(strClasses);
         }
+        //look for recordque to add
+        //TODO: this shoudl call recordque instead of manually embedding it
+
+        var htmlStyle = '';
+        if(typeof value !== 'undefined' && typeof value._score !== 'undefined'){
+          htmlStyle = 'background: linear-gradient(90deg, rgb(55, 59, 65) '+((value._score/100)*100).toFixed(2)+'%, rgb(29, 31, 33) '+(1-(value._score/100)*100).toFixed(2)+'%);';
+          //console.log(htmlStyle);
+        }
+
+        //add icons for tags that are defined
+        var htmlIcons = '';
+        if(typeof value !== 'undefined' && typeof value._tags !== 'undefined' && scope.tags !== 'undefined'){
+          //loop through item tags
+          for(i=0;i<value._tags.length;i++){
+
+                //match found, add the defined icon
+                htmlIcons=htmlIcons+'<i class="fa fa-'+value._tags[i]+' fa-xl"></i>';
+          }
+        }
 
         var html = ngPrettyJsonFunctions.syntaxHighlight(value) || "";
         //add the brackets highlighting
+        
         html = html
         .replace(/\{/g, "<span class='sep'>{</span>")
         .replace(/\}/g, "<span class='sep'>}</span>")
         .replace(/\[/g, "<span class='sep'>[</span>")
         .replace(/\]/g, "<span class='sep'>]</span>")
-        .replace(/\,/g, "<span class='sep'>,</span>");                        
-        return isDefined(value) ? scope.tmplElt.find('pre').html(html) : scope.tmplElt.find('pre').empty();
+        .replace(/\,/g, "<span class='sep'>,</span>");
+        
+        //s there a _recordque to render
+        if(htmlIcons!==''){ html = html + htmlIcons; }
+        //add in the style property based on _score for backfround fill
+        scope.tmplElt.find('pre').attr('style',htmlStyle);                   
+        //return isDefined(value) ? scope.tmplElt.find('pre').html(html) : scope.tmplElt.find('pre').empty();
+        return scope.tmplElt.find('pre').html(html);
       },
       objWatch;
 
@@ -77,7 +103,7 @@ angular.module('ngPrettyJson', [])
   var fnReplace = function(k,v){
         //properties to filter out
         //TODO abstract these to be inputs into the directive
-        if(k==='_id' || k==='_column' || k==='_styles' || k==='_tags'|| k==='_image' || k==='_text' || k==='_recordque' || k==='$$hashKey'){ return undefined; }else{return v;}
+        if(k==='_score' || k==='_id' || k==='_column' || k==='_styles'|| k==='_image' || k==='_event' || k==='_text' || k==='_recordque' || k==='$$hashKey'){ return undefined; }else{return v;}
       };
 
   /**

@@ -43,22 +43,22 @@ $scope.layouts=['rows','columns','radar','adjacency','position'];
 $scope.arrItems=[
 {"place": {
     "country_code": "BR"
-  },
+  },"_tags":["bell"],
   "text": "Relendo estes RPGs que estavam perdidos na minha estante. Quem gostaria de jogar uma sessão… https://t.co/BJXQci7YB6"
 },{
   "place": {
     "country_code": "PH"
-  },
+  },"_tags":["bomb"],
   "text": "@kittyhalei24 ahahahahahhahaah grabe ka hard!"
 },{
   "place": {
     "country_code": "US"
-  },
+  },"_tags":["bug"],
   "text": "😪 https://t.co/sRqjsoH6GV"
 },{
   "place": {
     "country_code": "VE"
-  },
+  },"_tags":["trash"],
   "text": "Yo te quiero tener"
 }
 ];
