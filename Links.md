@@ -5,6 +5,7 @@
 - http://www.redblobgames.com/grids/hexagons/ details on implementing hexagons
 - https://en.wikipedia.org/wiki/Bloom_filter bloom filter
 - https://medium.com/@mslima/the-book-of-circles-4b511a5bcffc#.10wjn5hu6 circles
+- https://en.wikipedia.org/wiki/Predictive_modelling predictive modeling
 
 ## Technologies
 
