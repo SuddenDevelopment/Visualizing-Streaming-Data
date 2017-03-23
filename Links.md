@@ -81,6 +81,7 @@
 - http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/ illustrating the choices of how to best visualize a dataset
 - https://hal-enac.archives-ouvertes.fr/hal-01021607/document paper on node-network simplification
 - https://googlecreativelab.github.io/anypixel/ experimental displays
+- https://www.kineviz.com/ a company focused on exploring difficult data visualization challenges.
 
 ## Machine Learning
 
