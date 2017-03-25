@@ -60,6 +60,7 @@
 - https://fonts.google.com/ popular soution for fonts
 - https://github.com/darul75/ng-prettyjson show syntax highlighted json data in Angular
 - http://airbnb.design/building-a-visual-language/ a guide to developing a visual language by AirBnB
+- http://www.datavizcatalogue.com/ selection of data viz techniques
 
 ## Visualizing
 
