@@ -83,6 +83,7 @@
 - https://hal-enac.archives-ouvertes.fr/hal-01021607/document paper on node-network simplification
 - https://googlecreativelab.github.io/anypixel/ experimental displays
 - https://www.kineviz.com/ a company focused on exploring difficult data visualization challenges.
+- https://bl.ocks.org/emeeks/9bc7e3f505b25908a26fd8045656b490 example of treemaps with history
 
 ## Machine Learning
 
