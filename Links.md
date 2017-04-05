@@ -84,6 +84,7 @@
 - https://googlecreativelab.github.io/anypixel/ experimental displays
 - https://www.kineviz.com/ a company focused on exploring difficult data visualization challenges.
 - https://bl.ocks.org/emeeks/9bc7e3f505b25908a26fd8045656b490 example of treemaps with history
+- https://github.com/airbnb/superset airBnB open source framework for visualization using Python
 
 ## Machine Learning
 
