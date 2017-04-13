@@ -99,6 +99,7 @@
 - https://azure.microsoft.com/en-us/services/machine-learning/ Microsoft Azure machine learning
 - http://yerevann.com/a-guide-to-deep-learning/ machine learning and deep learning tutorials
 - http://www.skrasser.com/publications/pdf/krasser2015val.pdf detailed description of machine learning applied to malware detection
+- http://distill.pub/ explanations with interactive examples on machine learning concepts
 
 ## Actions
 
