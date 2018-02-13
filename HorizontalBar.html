@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html ng-app="appMain">
+<head>
+	<title>scrolling bar mockup</title>
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.css">
+	<style>
+		html,body{margin:0;padding:10px;}
+		div.bar{ border:1px solid #300; }
+		div.barDays{ width:2px; background-color:#600; }
+		div.barHours{ width:4px; background-color:#900; }
+		div.barMins{ width: 6px; background-color:#A00; }
+		div.barSecs{ width:8px; background-color:#F00; }
+
+		div.color1{ background-color:#F00; }
+		div.color2{ background-color:#A00; }
+		div.color3{ background-color:#900; }
+		div.color4{ background-color:#600; }
+	</style>
+</head>
+<body ng-controller='controllerMain'>
+<h2> Experimenting with bar charts </h2>
+
+Bar charts (aka histograms) are one of the most common charts in use. I've seen a lot of things added to them.
+
+<ul>
+	<li> added series with clors that designate the series </li>
+	<li> bar stacks for divisions of the total</li>
+	<li> threshold lines or backgrounds that designate something significant if a bar is above or below it</li>
+	<li> bar decorations that represent its data or how it's changed</li>
+</ul>
+
+What I haven't seen much of is :
+<ul>
+	<li>working with the width of the bar</li>
+	<li>having different horizontal sections</li>
+	<li>color brightness or other variations that have meaning beyond distinct data set</li>
+	<li>selective movement</li>
+</ul>
+
+The improvements Im setting out to make are:
+<ul>
+	<li>adjust for streaming data where needed</li>
+	<li>show most relevant data most prominently</li>
+	<li>show historical comparison data but not in a way that takes up the same amount of room</li>
+	<li>accomplish the abive with an economy of space</li>
+</ul>
+
+My 1st exploration into this is to layout different timescales on the same chart, but give them variable widths and colors based on relevance
+the seconds adjust every second and each other time scale section adjusts as that timeframe passes. By putting them all ont he same line they are much easier to compare. Because values for a day are going to be much larger than values for a second everything is normalized to average per second. In general this works well. It's easy to both compare and distinguish the different time scales.
+
+<h2> fixed width bars based on age/relevance, showing 7 days, 24 hours, 60 minutes, 60 seconds </h2>
+<div layout="row" layout-align="begin end">
+	<div ng-repeat="intVal in arrDays" class="bar barDays" ng-style="{'height':intVal+'px'}"></div>
+	<div ng-repeat="intVal in arrHours" class="bar barHours" ng-style="{'height':intVal+'px'}"></div>
+	<div ng-repeat="intVal in arrMinutes" class="bar barMins" ng-style="{'height':intVal+'px'}"></div>
+	<div ng-repeat="intVal in arrSeconds" class="bar barSecs" ng-style="{'height':intVal+'px'}"></div>
+</div>
+
+
+What I don't like about the above is that the width of the chart is based on the number of elements which will be largely based on how much history there is. While this might be accurate from some peoples reading of the chart it would not look very good when it comes to layout and alignments. In some cases it will overflow when there is not enough space, in other cases it would look choppy whene there isnt much data. Overall the variable widths of several metrics would look offputting.
+
+So in the next version there are distinct percentages of the overall width given to each timescale. however many records there are within that timescale will fill that space. This will definitely allow for better alignment overall. the tradeoff is that the bar widths will no longer reflect the age/relevance. I think it still works with the diminishing brightness and smaler sections given.
+
+</br>
+
+<h2> fixed width sections, sections are smaller for older records</h2>
+<div layout="row" layout-align="begin">
+	<div layout="column"  layout-align="end" flex="10">
+		<div layout="row" layout-align="begin end" flex>
+			<div ng-repeat="intVal in arrDays" class="bar color4" ng-style="{'height':intVal+'px'}" title="{{intVal}}" flex></div>
+		</div>
+		<div> Days </div>
+	</div>
+	<div layout="column" layout-align="end" flex="15">
+		<div layout="row" layout-align="begin end" flex>
+			<div ng-repeat="intVal in arrHours" class="bar color3" ng-style="{'height':intVal+'px'}" title="{{intVal}}" flex></div>
+		</div>
+		<div> Hours </div>
+	</div>
+	<div layout="column" layout-align="end" flex="25">
+		<div layout="row" layout-align="begin end" flex>
+			<div ng-repeat="intVal in arrMinutes" class="bar color2" ng-style="{'height':intVal+'px'}" title="{{intVal}}" flex></div>
+		</div>
+		<div> Minutes </div>
+	</div>
+	<div layout="column" layout-align="end" flex="60">
+		<div layout="row" layout-align="begin end" flex>
+			<div ng-repeat="intVal in arrSeconds" class="bar color1" ng-style="{'height':intVal+'px'}" title="{{intVal}}" flex></div>
+		</div>
+		<div> Seconds </div>
+	</div>
+</div>
+
+
+ The other decorations can always be added to this concept. As appropriate and helpful.
+
+ <br/></br>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.js"></script>
+<script>
+var app = angular.module('appMain', ['ngMaterial']).config(function($mdThemingProvider) { $mdThemingProvider.theme('default').dark(); });
+app.controller('controllerMain', function($scope) {
+	$scope.arrDays=[]; $scope.arrHours=[]; $scope.arrMinutes=[]; $scope.arrSeconds=[];
+	var i=0;
+
+	for(i=0;i<60;i++){
+		var intVal=Math.random() * (100 - 1) + 1;
+		$scope.arrMinutes.push(intVal);
+		var intVal=Math.random() * (100 - 1) + 1;
+		$scope.arrSeconds.push(intVal);
+		if(i<24){
+			var intVal=Math.random() * (100 - 1) + 1;
+			$scope.arrHours.push(intVal);
+		}
+		if(i<7){
+			var intVal=Math.random() * (100 - 1) + 1;
+			$scope.arrDays.push(intVal);
+		}
+	}
+
+	//repeating stuff
+	var objRenderInterval = setInterval(function(){ 
+			intVal=Math.random() * (100 - 1) + 1;
+			$scope.arrSeconds.push(intVal);
+			$scope.arrSeconds.shift();
+			if(i%60===0){
+				var intVal=Math.random() * (100 - 1) + 1;
+				$scope.arrMinutes.push(intVal);
+				$scope.arrMinutes.shift();
+			}
+			i++;
+		$scope.$evalAsync(); 
+	},1000);
+
+});
+</script>
+</body>
+</html>
