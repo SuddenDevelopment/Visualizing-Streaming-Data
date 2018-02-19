@@ -1,0 +1,3 @@
+<div ng-repeat="(strStat,intStat) in stats" ng-if="strStat !== 'total'" class="bar" ng-style="bgProgress(intStat,stats.total)" layout="row">
+	<div>{{strStat}} : </div><div class="b09">{{intStat}}</div>
+</div>

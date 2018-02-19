@@ -53,7 +53,10 @@
         "angular-sanitize": "^1.6.9",
         "cytoscape": "^3.2.8",
         "cytoscape-cola": "^2.1.0",
-        "electron-compile": "^6.4.2"
+        "electron-compile": "^6.4.2",
+        "faker": "^4.1.0",
+        "lodash": "^4.17.5",
+        "ng-prettyjson": "^0.2.0"
     },
     "devDependencies": {
         "babel-plugin-transform-async-to-generator": "^6.24.1",
