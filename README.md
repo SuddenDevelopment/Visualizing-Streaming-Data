@@ -4,9 +4,9 @@ This is intended to be a companion to the book here https://www.amazon.com/Visua
 
 ## Sources
 
-### Links
+###   Links
 
-### Code
+###   Code
 
 ## Streaming
 
