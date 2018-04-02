@@ -24,7 +24,7 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 
 ###   Links
 
-###   Code: [examples](./client.md)
+###   Code: [examples](./client)
 
 ## Presenting
 
