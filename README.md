@@ -6,7 +6,7 @@ This is intended to be a companion to the book here https://www.amazon.com/Visua
 
 ###   Links
 
-###   Code (sources.js)
+###   Code [sources.js](./sources.js)
 
 ## Streaming
 
