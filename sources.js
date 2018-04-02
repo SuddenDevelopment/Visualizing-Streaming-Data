@@ -1,5 +1,5 @@
 
-```javascript
+<pre>
 //set stream count
 var intStreams=4;
 //current stream
@@ -16,4 +16,4 @@ var fnOnMessage=function(objMsg){
     intCurrentStream++;
   }
 }
-```
+</pre>
