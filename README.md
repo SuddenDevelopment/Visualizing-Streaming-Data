@@ -12,7 +12,6 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 
 ###   Links
 
-###   Code: [examples](./streaming.md)
 
 ## Processing
 
@@ -48,7 +47,6 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 
 ###   Links
 
-###   Code: [examples](./workflow.md)
 
 ## Dashboard
 
@@ -60,7 +58,6 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 
 ###   Links
 
-###   Code: [examples](./machinelearning.md)
 
 ## Collaboration
 
@@ -78,4 +75,3 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 
 ###   Links
 
-###   Code: [examples](./usecases.md)
