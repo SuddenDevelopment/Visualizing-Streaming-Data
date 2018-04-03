@@ -44,6 +44,10 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 ## Client
 
 ###   Links
+- https://planetos.com/powerboard/
+- https://www.alooma.com/blog/kafka-realtime-visualization a streaming data client for Kafka
+- http://ohm.ai 
+- https://www.appdynamics.com/product/application-performance-management/ complete solution for microservices architecture
 
 ###   Code: [examples](./client)
 
@@ -59,6 +63,28 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 - https://github.com/darul75/ng-prettyjson show syntax highlighted json data in Angular
 - http://airbnb.design/building-a-visual-language/ a guide to developing a visual language by AirBnB
 - http://www.datavizcatalogue.com/ selection of data viz techniques
+- https://www.pubnub.com/developers/eon/ real time library for client visualizations
+- https://d3js.org/ The most popular visualization library for client development
+- http://christopheviau.com/d3list/gallery.html A great gallery of D3 visualizations
+- http://www.aviz.fr/~bbach/timecurves/ an interesting approach to representing progress
+- https://github.com/Netflix/Hystrix/wiki/Dashboard A robust monitoring component that is streaming data compatible
+- http://grafana.org/ graph library
+- https://github.com/artzub/blackhole.js fancy relationship visualization, good for streaming because it has a focus on changes over time
+- https://github.com/uber/deck.gl map visualization library
+- https://github.com/datacratic/data-projector experimental 3d network visualization
+- https://github.com/INRIA/VisualSedimentation visualization method to show accumulated changes over time
+- https://github.com/anvaka/ngraph.pixel#demo graph library on webgl
+- http://techblog.netflix.com/2016/08/vizceral-open-source.html graph library
+- http://epochjs.github.io/epoch/ streaming friendly charts
+- https://preziotte.com/partymode/ music visualizations
+- https://github.com/cytoscape/cytoscape.js one of the most popular and feature rich realtionship visualization libraries
+- http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/ illustrating the choices of how to best visualize a dataset
+- https://hal-enac.archives-ouvertes.fr/hal-01021607/document paper on node-network simplification
+- https://googlecreativelab.github.io/anypixel/ experimental displays
+- https://www.kineviz.com/ a company focused on exploring difficult data visualization challenges.
+- https://bl.ocks.org/emeeks/9bc7e3f505b25908a26fd8045656b490 example of treemaps with history
+- https://github.com/airbnb/superset airBnB open source framework for visualization using Python
+- https://github.com/ordina-jworks/microservices-dashboard dashboard for visualing microservices ecosystems
 
 ###   Code: [examples](./presenting.md)
 
@@ -139,3 +165,7 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 - http://nulldesign.jp/metrogram3d/ 3d streaming data visualization
 - https://vimeo.com/groups/vast2013/videos/80829138 streaming network visualization concept
 
+### Continuing Research:
+- http://dataviz.tools/ a great list of non streaming specific data visualization
+- http://treevis.net lots of tree and treemap visualizations
+- https://github.com/josephmisiti/awesome-machine-learning machine learning resources
