@@ -106,7 +106,7 @@ var fnOnMessage=function(intVal){
 ```
 
 ### Example Angular HTML to display multiple inline simple charts
-```javascript
+```html
 <div layout="row" layout-align="begin">
 <div layout="column"  layout-align="end" flex="10">
     <div layout="row" layout-align="begin end" flex>
