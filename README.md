@@ -44,6 +44,7 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 ## Client
 
 ###   Links
+- 
 - https://planetos.com/powerboard/
 - https://www.alooma.com/blog/kafka-realtime-visualization a streaming data client for Kafka
 - http://ohm.ai 
