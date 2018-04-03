@@ -34,3 +34,65 @@ tail.on("line", function(strLine) {
 });
 ```
 
+### Records per second
+```javascript
+//use set interval for timing, this var will be a reference to it
+var objThrottle={};
+//assuming arrRecords is a collection of records
+objThrottle=setInterval(function(){
+  //assuming fnSendRecord is the function to run for each record
+  fnSendRecord(arrRecords[intIndex]);
+  if(intIndex===intRecords-1){ clearInterval(objThrottle); }
+  else{ intIndex++; }
+}, intDelay);
+```
+
+### Set a Time To Live
+```javascript
+//assume objMsg is already defined
+//in this scenario a severity property is already present as a number
+if(typeof objMsg.severity === 'number'){
+  //need a timestamp as a point of reference
+  objMsg.timestamp=Date.now();
+  //ttl is set in milliseconds
+      objMsg.ttl=objMsg.severity*60000;
+}
+```
+
+### Timing Out
+```javascript
+//run inside a function that scans all persistent objects
+//get the current timestamp
+var intNow = Date.now();
+// arrObjects as a collection of objects
+ for(var i=0;i<arrobjects.length;i++){ 
+ if(arrObjects[i].timestamp+arrObjects[i].ttl < intNow){
+   //this is past the timeout threshold
+   //call whatever function is defined to remove the timed out object
+   fnRemove(arrObjects[i]);
+ }
+}
+```
+
+### Time in State
+```javascript
+//run inside a function that scans all persistent objects
+//get the current timestamp
+var intNow = Date.now();
+// arrObjects as a collection of objects
+ for(var i=0;i<arrobjects.length;i++){
+if(arrObjects[i].timestamp+arrObjects[i].ttl < intNow){
+   //this is past the timeout threshold
+   //call whatever function is defined to remove the timed out object
+   if(arrObjects[i].severity > 0)
+   { 
+     //reduce the severity and recalc the ttl
+     arrObjects[i].severity--; 
+     arrObjects[i].ttl=objMsg.severity*60000;
+   }else{
+     fnRemove(arrObjects[i]);
+   }
+ }
+}
+```
+
