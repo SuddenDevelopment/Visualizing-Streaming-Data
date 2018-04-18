@@ -1,5 +1,7 @@
 # Visualizing-Streaming-Data
 
+![](cover.jpg)
+
 This is intended to be a companion to the book here: <br/> https://www.amazon.com/Visualizing-Streaming-Data-Interactive-analysis/dp/1492031852/
 
 ## Sources
