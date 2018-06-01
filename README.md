@@ -2,7 +2,11 @@
 
 ![](cover.jpg)
 
-This is intended to be a companion to the book here: <br/> https://www.amazon.com/Visualizing-Streaming-Data-Interactive-analysis/dp/1492031852/
+This is intended to be a companion to the book here: 
+<br/> https://www.amazon.com/Visualizing-Streaming-Data-Interactive-analysis/dp/1492031852/
+<br/> Organized by chapter / subject. 
+<br/> if you have an issue getting something to work or want to suggest a new link / example please create an issue.
+<br/> I'm also always looking for interesting places to apply some of these techniques. Let me know what your project is.
 
 ## Sources
 
@@ -172,3 +176,6 @@ This is intended to be a companion to the book here: <br/> https://www.amazon.co
 - http://dataviz.tools/ a great list of non streaming specific data visualization
 - http://treevis.net lots of tree and treemap visualizations
 - https://github.com/josephmisiti/awesome-machine-learning machine learning resources
+
+### Added after Version 1 publication: 
+
