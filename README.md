@@ -178,4 +178,4 @@ This is intended to be a companion to the book here:
 - https://github.com/josephmisiti/awesome-machine-learning machine learning resources
 
 ### Added after Version 1 publication: 
-
+- http://ethviewer.live/ : impressive / experimental visualization of ethereum blockchain
