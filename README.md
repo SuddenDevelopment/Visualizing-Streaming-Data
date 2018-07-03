@@ -180,3 +180,5 @@ This is intended to be a companion to the book here:
 ### Added after Version 1 publication: 
 - http://ethviewer.live/ : impressive / experimental visualization of ethereum blockchain
 - https://github.com/cubedro/eth-netstats
+- http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+- http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
